@@ -1,0 +1,159 @@
+body {
+    background-color: #284440;
+}
+h1 {
+    color: #4b0e0c
+}
+input {
+    border-radius: 5px;
+}
+tr {
+    border-color: #402075
+}
+div{
+
+}
+select {
+    border-radius: 5px;
+}
+.FIO2 {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    width: min-content;
+    height: min-content;
+}
+
+.names {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.inputs {
+    margin-left: 5px
+}
+
+.name1 {
+    height: 38px;
+
+}
+
+.name2 {
+    height: 37px;
+
+}
+
+.childrenChek {
+    margin-left: 50px;
+}
+
+.head {
+    background-color: #6dc4e6;
+    border: solid;
+    padding: 5px;
+    border-width: 2px;
+    border-color: #140938;
+    border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.all {
+    background-color: #6dc4e6;
+    border: solid;
+    padding: 5px;
+    border-width: 2px;
+    border-color: #140938;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+    height: max-content;
+}
+
+.allMate {
+    display: flex;
+    flex-direction: row;
+}
+
+.range {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.range2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.textRange1 {
+    text-align: left;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.textRange2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.textRange3 {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.table1 {
+    border: solid;
+    border-color: #431969;
+}
+
+.selfInfo {
+    border: solid;
+    padding: 5px;
+    border-width: 2px;
+    border-color: #140938;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.flightData {
+    border: solid;
+    padding: 5px;
+    border-width: 2px;
+    border-color: #140938;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+.borderWord {
+    font-size: 15px;
+    color: #000;
+    background-color: #6dc4e6;
+    padding: 5px 15px;
+    position: relative;
+    bottom: 17px;
+    left: 350px;
+}
+
+.buttons {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.but {
+    border-radius: 4px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

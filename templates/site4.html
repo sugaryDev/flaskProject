@@ -1,26 +1,163 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
-  <head>
+<head>
     <link rel="stylesheet" href="static/css/master2.css">
     <meta charset="utf-8">
     <title>Работа с формами</title>
-  </head>
-  <body>
-    <h1 align = "center"><u>Работа с формами</u></h1>
+</head>
+<body>
+<div class="head">
+    <h1 align="center"><u>Работа с формами</u></h1>
     <br>
     <h2 align="center"><u>Страница регистраци</u></h2>
-    <hr width = "20%">
-    <hr width = "10%">
-      <div class="FIO">
-          <form>
-          <div class="fio_nam">
-              <div class = "field"><p class="reg_item"><strong>Фамилия:</strong><input maxlength="20" type="text" name="name" value="1"></p></div>
-              <div class = "field"><p class="reg_item"><strong>Имя:</strong><input maxlength="15" type="text" name="firstname" value="2"> </p></div>
-              <div class = "field"><p class="reg_item"><strong>Отчество:</strong><input type="text" name="lastname" value=""3></p></div>
-          </div>
-          </form>
-       </div>
-  </body>
+</div>
+
+<hr width="20%">
+<hr width="10%">
+
+<div class="all">
+    <form>
+        <div class="FIO2">
+            <div class="names">
+                <div class="name1"><p>Фамилия:</p></div>
+                <div class="name2"><p>Имя:</p></div>
+                <div class="name3"><p>Отчество:</p></div>
+            </div>
+            <div class="inputs">
+                <p><input class="input1" maxlength="20" type="text" name="name" value="1"></p>
+                <p><input class="input1" maxlength="25" type="text" name="name" value="2"></P>
+                <p><input class="input1" type="text" name="name" value="3"></p>
+            </div>
+        </div>
+
+        <div class="sex">
+            <p>Ваш пол: Муж<input type="checkbox" name="male" value="1"> Жен <input type="checkbox" name="female"
+                                                                                    value=""></p>
+        </div>
+
+        <div class="vilet">
+            <p>Интересует вылет в <select>
+                <option>Италия</option>
+                <option>Франция</option>
+                <option>Германия</option>
+                <option>США</option>
+                <option>ОАЭ</option>
+                <option>Сомали</option>
+                <option>Камбоджа</option>
+                <option>Древний Рим</option>
+                <option>Финляндия</option>
+                <option>Антарктида</option>
+            </select></p>
+        </div>
+
+        <p class="childrenText">Со мной путишествуют дети</p>
+        <div class="childrenChek">
+            <p>До 2ух лет: <input type="checkbox" name="2" value=""> До 14ти лет: <input type="checkbox" name="14"
+                                                                                         value=""> Без детей:<input
+                    type="checkbox" name="none" value=""></p>
+        </div>
+
+        <div class="file">
+            <p>Загрузите ваше фото <input type="file" name=" " value=" " accept="image/*"></p>
+        </div>
+
+        <div class="allMate"><p>Всего вылетает:</p>
+            <p><select size="3">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+            </select></p>
+        </div>
+
+        <p>Дата вылета: <input type="date"> Дата прилета: <input type="date"></p>
+
+        <p>Желаемая цена билета:</p>
+        <div class="range">
+            <input type="range" min="2000" max="20000" step="50" list="value">
+            <div class="range2">
+                <div class="textRange1">2000</div>
+                <div class="textRange2">11000</div>
+                <div class="textRange3">20000</div>
+            </div>
+
+            <p>Бонусные даты:</p>
+            <p align="right">октябрь 2020</p>
+            <table class="table1" border="5px">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td bgcolor="red">8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                    <td>13</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>16</td>
+                    <td bgcolor="red">17</td>
+                    <td>18</td>
+                    <td>19</td>
+                    <td>20</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td bgcolor="red">22</td>
+                    <td>23</td>
+                    <td>24</td>
+                    <td>25</td>
+                    <td bgcolor="red">26</td>
+                    <td>27</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>29</td>
+                    <td>30</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <h3 align="center">Итоговые данные</h3>
+
+        <div class="selfInfo">
+            <span class="borderWord">Личная информация</span>
+            <p>ФИО: <input> <input> <input></p>
+            <p>Пол: М <input type="checkbox"> Ж <input type="checkbox"></p>
+            <p>Кол-во детей: <input></p>
+        </div>
+        <br><br>
+        <div class="flightData">
+            <span class="borderWord">Данные о вылете</span>
+            <p>Дата вылета <input></p>
+            <p>Дата прилета <input></p>
+            <p>Пункт вылета <input></p>
+            <p>Пункт прилета <input></p>
+            <p>Бонусная дата? да <input type="checkbox"> нет <input type="checkbox"></p>
+        </div>
+        <div class="buttons">
+            <p>
+                <button class="but" type="submit">Обработать</button>
+                <button class="but" type="reset">Сбросить</button>
+            </p>
+        </div>
+    </form>
+</div>
+</body>
 </html>
-
-
